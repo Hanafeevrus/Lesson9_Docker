@@ -1,5 +1,8 @@
-# Lesson9_Docker
-#### Dockerfile
+# Lesson9_Docker        
+Dockerfile собирает контейнер с nginx на основе alpine:latest       
+для провижининга default.conf и index.html должны лежать в директории с которой запускается docker build        
+
+##### описание Dockerfile:
     # первоначальный контейнер
     FROM alpine   
     # выставляет label
